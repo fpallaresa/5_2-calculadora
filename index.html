@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator__grid">
+            
+            <!-- screen: primera fila -->
+            <div class="calculator__screen">
+                <p class="calculator__result"></p>
+            </div>
+
+            <!-- operadores: segunda fila -->
+            <button type="button" class="button button--operator" value="+">+</button>
+            <button type="button" class="button button--operator" value="-">-</button>
+            <button type="button" class="button button--operator" value="*">&times;</button>
+            <button type="button" class="button button--operator" value="/">&divide;</button>
+
+            <!-- números: tercera fila -->
+            <button type="button" class="button button--operand" value="7">7</button>
+            <button type="button" class="button button--operand" value="8">8</button>
+            <button type="button" class="button button--operand" value="9">9</button>
+
+            <!-- números: tercera fila -->
+            <button type="button" class="button button--operand" value="4">4</button>
+            <button type="button" class="button button--operand" value="5">5</button>
+            <button type="button" class="button button--operand" value="6">6</button>
+
+            <!-- números: cuarta fila -->
+            <button type="button" class="button button--operand" value="1">1</button>
+            <button type="button" class="button button--operand" value="2">2</button>
+            <button type="button" class="button button--operand" value="3">3</button>
+
+            <!-- números/ac: quinta fila -->
+            <button type="button" class="button button--operand" value="0">0</button>
+            <button type="button" class="button button--operand" value=".">.</button>
+            <button type="button" class="button button--clear" value="ac">AC</button>
+
+            <!-- igual, posición específica-->
+            <button type="button" class="button button--equal" value="=">=</button>
+       
+        </div>
+    </div>
+</body>
+
+</html>
